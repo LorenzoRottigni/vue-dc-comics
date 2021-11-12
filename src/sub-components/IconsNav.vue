@@ -1,6 +1,6 @@
 <template>
-    <nav class="icons-nav d-flex align-items-center justify-content-center px-5">
-        <ul class="list-unstyled h-100 d-flex align-items-center gap-3 my-0">
+    <nav class="icons-nav d-flex align-items-center justify-content-center px-5 py-3 shadow">
+        <ul class="list-unstyled h-100 d-flex align-items-center justify-content-center flex-wrap gap-3 my-0">
             <li>
                 <img src="./../assets/buy-comics-digital-comics.png" alt="buy-comics-digital-comics">
                 <h3> DIGITAL COMICS </h3>

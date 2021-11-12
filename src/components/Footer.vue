@@ -2,12 +2,12 @@
     <footer class="d-flex align-items-center">
         <div class="container-fluid">
             <div class="row px">
-                <div class="col-6 offset-1 px-5">
+                <div class="col-6 px-5">
                     <button class="btn btn-outline-primary">
                         SIGN-UP NOW!
                     </button>
                 </div>
-                <div class="col-5 d-flex gap-3 justify-content-end align-items-center px-5">
+                <div class="col-6 d-flex gap-3 justify-content-end align-items-center flex-wrap">
                     <h4>FOLLOW US</h4>
                     <ul class="list-unstyled d-flex gap-3">
                         <li><img src="./../assets/footer-facebook.png" alt="facebook icon"></li>

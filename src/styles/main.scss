@@ -1,17 +1,44 @@
 @import './variables';
 main{
-    height: 70vh;
     overflow: hidden;
 }
 h3{
     color: white;
     font-size: 20px;
 }
-.dark-content-section{
+h4{
+    color: #959595;
+    font-size: 18px;
+}
+h5{
+    color: $color-primary;
+    font-size: 16px;
+}
+.hero-section{
+    background-image: url(./../assets/jumbotron.jpg);
+    background-size: cover;
+    height: 40vh;
+    
+}
+.series-container{
     background-color: #1c1c1c;
-    h4{
-        color: white;
+    position: relative;
+    .serie-card{
+        width: 192px;
     }
+}
+.series-container::before{
+    content: 'CURRENT SERIES';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    transform: translateY(-50%);
+    background-color: $color-primary;
+    padding: 0.5rem 1.5rem;
+    z-index: 99;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
 }
 .icons-nav{
     background-color: $bg-primary;
@@ -26,6 +53,7 @@ h3{
             gap: 1rem;
             font-size: 14px;
         }
+        
     }
     h3{
         font-size: 20px;
@@ -37,4 +65,7 @@ h3{
     background: url(../assets/dc-logo-bg.png) right center no-repeat , url(../assets/footer-bg.jpg) left center no-repeat;
     background-size: 40%, cover;
     color: #959595;
+    li:hover{
+        color: $color-primary;
+    }
 }

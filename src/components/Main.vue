@@ -1,21 +1,21 @@
 <template>
     <main class="d-flex flex-column">
-        <DarkContentSection/>
+        <HeroSection></HeroSection>
         <IconsNav/>
-        <Jumbotron class="flex-grow-1"/>
+        <Jumbotron/>
     </main>
 </template>
 <script>
-import DarkContentSection from './../sub-components/DarkContentSection.vue';
+import HeroSection from './../sub-components/HeroSection.vue';
 import IconsNav from './../sub-components/IconsNav.vue';
 import Jumbotron from './../sub-components/Jumbotron.vue';
 
 export default {
   name: 'Main',
   components: {
-    DarkContentSection,
     IconsNav,
-    Jumbotron
+    Jumbotron,
+    HeroSection
   },
   data(){
       return {

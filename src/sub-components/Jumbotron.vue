@@ -2,7 +2,7 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-6 offset-1  d-flex gap-4 py-3">
+                <div class="col-6 offset-1  d-flex gap-4 py-5">
                     <div>
                         <JumbotronList 
                         listTitle="DC COMICS"
