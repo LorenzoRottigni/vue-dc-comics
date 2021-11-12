@@ -1,9 +1,9 @@
 <template>
     <div>
-        <section class="hero-section">
+        <section class="hero-section ">
         
         </section>
-        <div class="series-container py-5 px-3 d-flex flex-wrap justify-content-center gap-5">
+        <div class="series-container shadow py-5 px-3 d-flex flex-wrap justify-content-center gap-5">
             <SerieCard :key="index" v-for="(serie, index) in seriesArray"
             :cardData="{
                 price : serie.price,

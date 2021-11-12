@@ -17,7 +17,7 @@ h5{
 .hero-section{
     background-image: url(./../assets/jumbotron.jpg);
     background-size: cover;
-    height: 40vh;
+    height: 60vh;
     
 }
 .series-container{
@@ -39,6 +39,7 @@ h5{
     color: white;
     font-size: 24px;
     font-weight: bold;
+    border-radius: 0.25rem;
 }
 .icons-nav{
     background-color: $bg-primary;

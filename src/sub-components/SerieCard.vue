@@ -1,6 +1,6 @@
 <template>
     <div class="serie-card d-flex flex-column flex-wrap">
-        <img :src="cardData.thumb" alt="serie image" class="d-block mx-auto">
+        <img :src="cardData.thumb" alt="serie image" class="d-block mx-auto rounded">
         <h3 class="pt-3">{{cardData.serie}}</h3>
         <h4>{{cardData.price}}</h4>
         <h5>{{cardData.type}}</h5>
