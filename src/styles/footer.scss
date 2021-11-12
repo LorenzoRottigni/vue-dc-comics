@@ -1,0 +1,9 @@
+@import './variables.scss';
+
+footer{
+    height: 15vh;
+    background-color: #303030;
+    h4{
+        color: $color-primary
+    }
+}

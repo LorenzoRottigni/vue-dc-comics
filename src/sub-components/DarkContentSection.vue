@@ -1,6 +1,6 @@
 <template>
-    <section class="dark-content-section d-flex align-items-center px-5">
-        <h1>--> Content goes here &lt;-- </h1>
+    <section class="dark-content-section d-flex align-items-center p-4">
+        <h4>--> Content goes here &lt;-- </h4>
     </section>
 </template>
 <script>

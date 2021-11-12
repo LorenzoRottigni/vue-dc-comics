@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="d-flex flex-column">
     <!--<img alt="Vue logo" src="./assets/logo.png">-->
     <Header/>
     <Main/>

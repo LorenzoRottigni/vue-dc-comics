@@ -1,16 +1,22 @@
 @import './variables';
-
+main{
+    height: 70vh;
+    overflow: hidden;
+}
+h3{
+    color: white;
+    font-size: 20px;
+}
 .dark-content-section{
     background-color: #1c1c1c;
-    height: 20vh;
-    h1{
-        color: $color-primary;
+    h4{
+        color: white;
     }
 }
 .icons-nav{
     background-color: $bg-primary;
     img{
-        max-width: 70px;
+        max-width: 30px;
     }
     ul{
         li{
@@ -18,10 +24,17 @@
             display: flex;
             align-items: center;
             gap: 1rem;
+            font-size: 14px;
         }
     }
     h3{
         font-size: 20px;
         color: white
     }
+}
+
+.jumbotron{
+    background: url(../assets/dc-logo-bg.png) right center no-repeat , url(../assets/footer-bg.jpg) left center no-repeat;
+    background-size: 40%, cover;
+    color: #959595;
 }
